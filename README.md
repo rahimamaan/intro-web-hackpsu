@@ -1,0 +1,1 @@
+Download the zip archive of these files at https://github.com/HackBerkeley/intro-web-hackpsu/archive/master.zip and open them in a text editor.
