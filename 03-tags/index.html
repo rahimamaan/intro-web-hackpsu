@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+Recap from section 02: your web pages have to have a doctype and opening/closing
+<html> tags. I went ahead and added them to this page and all later pages, but
+don't forget to include it on any web page you make yourself!
+
+Now, let's learn about HTML tags. Back in section 01, you might have tried to
+write something like this:
+
+===
+<!DOCTYPE html>
+
+Hello, world!
+This is a second line below the first.
+===
+
+But if you opened that in a browser, it'll get displayed like this
+
+===
+Hello, world! This is a second line before the first.
+===
+
+totally ignoring the linebreak between the two sentences! That's because HTML
+doesn't pay attention to newlines when it decides how things get displayed on
+screen. Instead, it uses *tags* to describe the meaning of the text that it
+displays. That's pretty abstract, so let's jump into an example of
+one of the most common common tags you'll use when writing HTML - <p>, the
+paragraph tag:
+-->
+
+<p>Hello, world!</p>
+
+<!--
+That's all a tag is! Anything inside "<" ">" is a tag, and the word inside that
+is the tag name. All tags have the same form: the pair of opening (<p>) and
+closing (</p>) tags with content (Hello, world!) in the middle. The name of a
+tag tells the browser what type of thing the content is (e.g, a paragraph, a
+heading, a link, or something else entirely) and the opening and closing tags
+tell the browser where the content starts and stops.
+
+In this example, we're telling the browser "Hey! This text, 'Hello, world!', is
+a paragraph. If there's any special way the browser treats paragraphs, treat
+this text the same way, because it's a paragraph. But only treat it like a
+paragraph in between the <p> and </p> tags."
+
+Tags have two other must-know properties:
+1) They are like parentheses. If you open a tag, you have to close it.
+2) They can *nest*, meaning you can have tags inside of tags. If you do this,
+   you need to close tags in the right order: the latest tag opened is the first
+   tag closed.
+
+If you compare this file and the file from section 01, you'll notice that they
+both look the same. That's because browsers automatically treat plain, untagged
+text like it's a paragraph. But sometimes they get it wrong, so it's always best
+to tell them explicitly.
+
+Paragraphs are useful because browsers automatically know to put newlines in
+between them. (How do they know? We'll learn that when we learn CSS!) Let's see
+<p> in action. We're going to make a correct version of our failed earlier
+example. We know that
+
+===
+Hello, world!
+This is a second line below the first.
+===
+
+doesn't work. But what happens when we tell the browser that each of those lines
+is their own paragraph?
+
+NOW YOU TRY:
+1) Comment out line 33. Uncomment lines 80-83.
+2) Reload this file in your browser. The lines run together; that's not what we
+   want.
+3) Put paragraph tags (<p> and </p>) around each line.
+4) Reload the file again. What happens to each line?
+-->
+
+<!--
+Hello, world!
+This is a second line below the first.
+-->
+
+</html>
