@@ -1,0 +1,51 @@
+/**
+Welcome to CSS! Like HTML, every website you use is also made up of CSS. If HTML
+is the building blocks of the web, CSS is the artist's palette. With CSS, you
+can change colors, fonts, and images; you can move and realign parts of a page;
+you can completely hide things from view; and so much more.
+
+As you might have guessed, CSS has comments as well. They're the characters that
+are on line 1 and 20. Anything inside them won't get interpreted as CSS - it's
+for your eyes only.
+
+CSS syntax is different from HTML syntax. Here's an example of CSS:
+
+===
+p, a {
+    color: red;
+    font: "Comic Sans MS";
+}
+===
+
+That example tells the browser to take all <p> and <a> tags, turn them red, and
+make their font Comic Sans.
+
+That entire example is called a *ruleset*, which comprises both the tags that
+the rules affect, and all the rules to apply to those tags. The list of tags
+(<p> and <a>, in our example) is called the *selector*. Each line inside the
+curly braces is called a *declaration*. Each declaration is made up of
+*properties* and *values*, separated by a colon, and declarations are ended with
+a semicolon.
+
+That's a lot to take in all at once, but once you know that, you know everything
+there is to know about CSS syntax. Stylesheets are just files containing lots of
+rulesets (which I'll abbreviate to *rules* from now on).
+
+Let's get some CSS experience. In the space below, we'll change up how the HTML
+file gets displayed, without changing any HTML at all.
+
+NOW YOU TRY:
+1) In the CSS below, change the color of <p> tags to green.2) Make a new rule that targets <h1> tags. Add a declaration that sets the
+   "font-family" property to "Arial". What does this do to the h1 tag?
+3) Make a new rule that targets both <strong> and <em> tags. Add 2 declarations
+   one that sets the "background-color" property to "crimson", and one that sets
+   the "color" property to "lavenderblush".
+4) Save and refresh the page.
+**/
+
+
+p {
+    background-color: /* replace this comment with a color */;
+}
+
+

@@ -1,0 +1,43 @@
+/**
+In the last section, we set some tags to have different colors with some pretty
+odd names (what's a "lavenderblush"?). There are actually 140 different colors
+defined in CSS, but what if you wanted to have more than 140 colors on your web
+page (please don't do this)? Or more realistically, what if you wanted a color
+that doesn't have a CSS name? Why, you make it yourself!
+
+CSS can display millions more colors than it has names for, using something
+called *hexadecimal values*, or *hex*, for short. Hex values are just regular
+numbers, but in base-16. We count in base-10, which means each digit can be the
+number 0-9. Hex digits can be the numbers 0-9 and the letters A-F. If you're not
+already familiar with hex, don't worry - you can use *color pickers*, which are
+apps that let you choose colors visually and then tell you what the hex value of
+that color. http://www.colorpicker.com/ is a great resource to use. Hex colors
+are six digits long.
+
+NOW YOU TRY:
+1) Using a color picker, pick five different colors and write CSS declarations
+   to set the "color" or "background-color" property of each of the tags below
+   to a different color using hex.
+**/
+
+
+
+h1 {
+
+}
+
+p {
+
+}
+
+li {
+
+}
+
+strong {
+
+}
+
+em {
+
+}

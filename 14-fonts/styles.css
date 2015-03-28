@@ -1,0 +1,29 @@
+/**
+In addition to changing colors, you can change the fonts and font sizes of
+elements as well. The properties you'll use are:
+
+* font-family: Set what font you want to use (Arial, Times New Roman, etc)
+* font-size: Set how big or small the text should be.
+* line-height: Space between lines of text. Think single-spaced or double-spaced
+               but with any multiplier.
+* letter-spacing: Space between individual letters.
+* text-align: Left-, center-, right-aligned, or justified text.
+
+You have two different ways of specifying how big something can be. You can use
+pixel measurements, which are *absolute*. One pixel is one dot on your computer
+screen. Or you can use ems, which are *relative* to the current height of the
+text.
+
+Generally, you want to use ems for all your measurements because it lets you
+avoid doing math when you say how big or small things should be.
+
+NOW YOU TRY:
+1) Make a CSS rule that sets the font-family of both <h1> and <p> elements to
+   "Times New Roman" (including the quotes).
+2) Center the <h1> element in the middle of the page by setting the "text-align"
+   to "center".
+3) Make the <p> double-spaced by setting its "line-height" to "2em" (remember,
+   1em is the current height of text; 2em is twice the current height).
+**/
+
+

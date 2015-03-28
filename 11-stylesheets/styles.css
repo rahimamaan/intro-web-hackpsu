@@ -1,0 +1,19 @@
+body {
+    background-color: ivory;
+}
+
+h1 {
+    color: dodgerblue;
+    text-align: center;
+}
+
+p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+strong, em {
+    color: lavenderblush;
+    background-color: crimson;
+    padding: 0 1px;
+}
